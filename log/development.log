@@ -13525,3 +13525,1808 @@ puma (3.11.2) lib/puma/server.rb:624:in `handle_request'
 puma (3.11.2) lib/puma/server.rb:438:in `process_client'
 puma (3.11.2) lib/puma/server.rb:302:in `block in run'
 puma (3.11.2) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started GET "/" for 172.23.0.1 at 2021-09-20 07:01:14 +0000
+  [1m[35m (8.3ms)[0m  [1m[35m
+	SET
+NAMES utf8
+,@@SESSION.sql_mode = CONCAT( CONCAT( @@sql_mode ,',STRICT_ALL_TABLES' ) ,',NO_AUTO_VALUE_ON_ZERO' )
+,@@SESSION.sql_auto_is_null = 0
+,@@SESSION.wait_timeout = 2147483[0m
+  [1m[35m (3.1ms)[0m  [1m[34m
+	SELECT
+		`schema_migrations`.`version`
+	FROM
+		`schema_migrations`
+	ORDER BY
+		`schema_migrations`.`version` ASC[0m
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered users/_login_form.html.erb (112.6ms)
+  Rendered home/index.html.erb within layouts/application (195.7ms)
+  Rendered application/_header.html.erb (2.8ms)
+Completed 200 OK in 10906ms (Views: 10840.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/app/assets/images/IMG_0038.JPG" for 172.23.0.1 at 2021-09-20 07:01:27 +0000
+  
+ActionController::RoutingError (No route matches [GET] "/app/assets/images/IMG_0038.JPG"):
+  
+actionpack (5.2.2) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.2) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.2) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.2) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.2) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.2) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.2) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.2) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.3) lib/rack/method_override.rb:24:in `call'
+rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.2) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+railties (5.2.2) lib/rails/engine.rb:524:in `call'
+puma (3.11.2) lib/puma/configuration.rb:225:in `call'
+puma (3.11.2) lib/puma/server.rb:624:in `handle_request'
+puma (3.11.2) lib/puma/server.rb:438:in `process_client'
+puma (3.11.2) lib/puma/server.rb:302:in `block in run'
+puma (3.11.2) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started GET "/" for 172.23.0.1 at 2021-09-20 07:01:40 +0000
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered users/_login_form.html.erb (1.9ms)
+  Rendered home/index.html.erb within layouts/application (41.1ms)
+  Rendered application/_header.html.erb (1.7ms)
+Completed 200 OK in 584ms (Views: 537.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/app/assets/images/IMG_0038.JPG" for 172.23.0.1 at 2021-09-20 07:01:41 +0000
+  
+ActionController::RoutingError (No route matches [GET] "/app/assets/images/IMG_0038.JPG"):
+  
+actionpack (5.2.2) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.2) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.2) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.2) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.2) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.2) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.2) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.2) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.3) lib/rack/method_override.rb:24:in `call'
+rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.2) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+railties (5.2.2) lib/rails/engine.rb:524:in `call'
+puma (3.11.2) lib/puma/configuration.rb:225:in `call'
+puma (3.11.2) lib/puma/server.rb:624:in `handle_request'
+puma (3.11.2) lib/puma/server.rb:438:in `process_client'
+puma (3.11.2) lib/puma/server.rb:302:in `block in run'
+puma (3.11.2) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started POST "/login" for 172.23.0.1 at 2021-09-20 07:01:55 +0000
+Processing by SessionsController#create as HTML
+  Parameters: 
+{
+                  "utf8"[0;37m => [0m[0;33m"✓"[0m,
+    "authenticity_token"[0;37m => [0m[0;33m"cRG7/WcSpkjM1NQZUr55ka5E9EO9FRfWbCBeCqPwdwE+KKNEpDHM2GNEnqaZ8cGBrHTexHEYeygVsvSdSFFaaw=="[0m,
+               "session"[0;37m => [0m{
+            "name"[0;37m => [0m[0;33m"user1"[0m,
+        "password"[0;37m => [0m[0;33m"[FILTERED]"[0m
+    },
+                "commit"[0;37m => [0m[0;33m"login"[0m
+}
+  [1m[36mUser Load (0.8ms)[0m  [1m[34m
+	SELECT
+		`users`. *
+	FROM
+		`users`
+	WHERE
+		`users`.`name` = 'user1' LIMIT 1[0m
+Redirected to http://localhost:3000/mypage
+Completed 302 Found in 432ms (ActiveRecord: 4.9ms)
+
+
+Started GET "/mypage" for 172.23.0.1 at 2021-09-20 07:01:55 +0000
+Processing by UsersController#me as HTML
+  [1m[36mUser Load (0.7ms)[0m  [1m[34m
+	SELECT
+		`users`. *
+	FROM
+		`users`
+	WHERE
+		`users`.`id` = 1 LIMIT 1[0m
+  Rendering users/me.html.erb within layouts/application
+  Rendered users/me.html.erb within layouts/application (1.1ms)
+  Rendered application/_header.html.erb (1.9ms)
+Completed 200 OK in 617ms (Views: 553.2ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/boards" for 172.23.0.1 at 2021-09-20 07:01:59 +0000
+Processing by BoardsController#index as HTML
+  [1m[36mUser Load (0.7ms)[0m  [1m[34m
+	SELECT
+		`users`. *
+	FROM
+		`users`
+	WHERE
+		`users`.`id` = 1 LIMIT 1[0m
+  Rendering boards/index.html.erb within layouts/application
+  [1m[36mTag Load (2.0ms)[0m  [1m[34m
+	SELECT
+		`tags`. *
+	FROM
+		`tags`[0m
+  [1m[36mBoard Load (3.7ms)[0m  [1m[34m
+	SELECT
+		`boards`. *
+	FROM
+		`boards` LIMIT 10 OFFSET 0[0m
+  [1m[35m (1.9ms)[0m  [1m[34m
+	SELECT
+		COUNT( * )
+	FROM
+		`boards`[0m
+  Rendered boards/index.html.erb within layouts/application (1201.8ms)
+  Rendered application/_header.html.erb (1.8ms)
+Completed 200 OK in 1912ms (Views: 1805.8ms | ActiveRecord: 12.6ms)
+
+
+Started GET "/" for 172.23.0.1 at 2021-09-20 07:02:03 +0000
+Processing by HomeController#index as HTML
+  [1m[36mUser Load (1.3ms)[0m  [1m[34m
+	SELECT
+		`users`. *
+	FROM
+		`users`
+	WHERE
+		`users`.`id` = 1 LIMIT 1[0m
+  Rendering home/index.html.erb within layouts/application
+  Rendered users/_login_form.html.erb (1.5ms)
+  Rendered home/index.html.erb within layouts/application (33.3ms)
+  Rendered application/_header.html.erb (1.8ms)
+Completed 200 OK in 553ms (Views: 495.1ms | ActiveRecord: 1.3ms)
+
+
+Started GET "/app/assets/images/IMG_0038.JPG" for 172.23.0.1 at 2021-09-20 07:02:03 +0000
+  
+ActionController::RoutingError (No route matches [GET] "/app/assets/images/IMG_0038.JPG"):
+  
+actionpack (5.2.2) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.2) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.2) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.2) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.2) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.2) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.2) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.2) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.3) lib/rack/method_override.rb:24:in `call'
+rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.2) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+railties (5.2.2) lib/rails/engine.rb:524:in `call'
+puma (3.11.2) lib/puma/configuration.rb:225:in `call'
+puma (3.11.2) lib/puma/server.rb:624:in `handle_request'
+puma (3.11.2) lib/puma/server.rb:438:in `process_client'
+puma (3.11.2) lib/puma/server.rb:302:in `block in run'
+puma (3.11.2) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started GET "/" for 172.23.0.1 at 2021-09-20 07:02:05 +0000
+Processing by HomeController#index as HTML
+  [1m[36mUser Load (1.3ms)[0m  [1m[34m
+	SELECT
+		`users`. *
+	FROM
+		`users`
+	WHERE
+		`users`.`id` = 1 LIMIT 1[0m
+  Rendering home/index.html.erb within layouts/application
+  Rendered users/_login_form.html.erb (2.0ms)
+  Rendered home/index.html.erb within layouts/application (35.5ms)
+  Rendered application/_header.html.erb (1.8ms)
+Completed 200 OK in 565ms (Views: 509.6ms | ActiveRecord: 1.3ms)
+
+
+Started GET "/app/assets/images/IMG_0038.JPG" for 172.23.0.1 at 2021-09-20 07:02:05 +0000
+  
+ActionController::RoutingError (No route matches [GET] "/app/assets/images/IMG_0038.JPG"):
+  
+actionpack (5.2.2) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.2) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.2) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.2) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.2) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.2) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.2) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.2) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.3) lib/rack/method_override.rb:24:in `call'
+rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.2) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+railties (5.2.2) lib/rails/engine.rb:524:in `call'
+puma (3.11.2) lib/puma/configuration.rb:225:in `call'
+puma (3.11.2) lib/puma/server.rb:624:in `handle_request'
+puma (3.11.2) lib/puma/server.rb:438:in `process_client'
+puma (3.11.2) lib/puma/server.rb:302:in `block in run'
+puma (3.11.2) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started GET "/boards" for 172.23.0.1 at 2021-09-20 07:02:07 +0000
+Processing by BoardsController#index as HTML
+Started GET "/app/assets/images/IMG_0038.JPG" for 172.23.0.1 at 2021-09-20 07:02:07 +0000
+  [1m[36mUser Load (10.1ms)[0m  [1m[34m
+	SELECT
+		`users`. *
+	FROM
+		`users`
+	WHERE
+		`users`.`id` = 1 LIMIT 1[0m
+  
+ActionController::RoutingError (No route matches [GET] "/app/assets/images/IMG_0038.JPG"):
+  
+actionpack (5.2.2) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.2) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.2) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.2) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.2) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.2) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.2) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.2) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.3) lib/rack/method_override.rb:24:in `call'
+rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.2) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+railties (5.2.2) lib/rails/engine.rb:524:in `call'
+puma (3.11.2) lib/puma/configuration.rb:225:in `call'
+puma (3.11.2) lib/puma/server.rb:624:in `handle_request'
+puma (3.11.2) lib/puma/server.rb:438:in `process_client'
+puma (3.11.2) lib/puma/server.rb:302:in `block in run'
+puma (3.11.2) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+  Rendering boards/index.html.erb within layouts/application
+  [1m[36mTag Load (0.9ms)[0m  [1m[34m
+	SELECT
+		`tags`. *
+	FROM
+		`tags`[0m
+  [1m[36mBoard Load (49.9ms)[0m  [1m[34m
+	SELECT
+		`boards`. *
+	FROM
+		`boards` LIMIT 10 OFFSET 0[0m
+  [1m[35m (0.7ms)[0m  [1m[34m
+	SELECT
+		COUNT( * )
+	FROM
+		`boards`[0m
+  Rendered boards/index.html.erb within layouts/application (486.8ms)
+  Rendered application/_header.html.erb (1.5ms)
+Completed 200 OK in 1420ms (Views: 1313.4ms | ActiveRecord: 61.6ms)
+
+
+Started GET "/boards/new" for 172.23.0.1 at 2021-09-20 07:02:11 +0000
+Processing by BoardsController#new as HTML
+  [1m[36mUser Load (1.4ms)[0m  [1m[34m
+	SELECT
+		`users`. *
+	FROM
+		`users`
+	WHERE
+		`users`.`id` = 1 LIMIT 1[0m
+  Rendering boards/new.html.erb within layouts/application
+  Rendered shared/_error_messages.html.erb (0.7ms)
+  [1m[36mTag Load (0.7ms)[0m  [1m[34m
+	SELECT
+		`tags`. *
+	FROM
+		`tags`[0m
+  Rendered boards/_form.html.erb (565.5ms)
+  Rendered boards/new.html.erb within layouts/application (612.6ms)
+  Rendered application/_header.html.erb (1.7ms)
+Completed 200 OK in 1268ms (Views: 1196.8ms | ActiveRecord: 4.2ms)
+
+
+Started GET "/" for 172.23.0.1 at 2021-09-20 07:02:32 +0000
+Processing by HomeController#index as HTML
+Started GET "/app/assets/images/IMG_0038.JPG" for 172.23.0.1 at 2021-09-20 07:02:33 +0000
+  [1m[36mUser Load (1.3ms)[0m  [1m[34m
+	SELECT
+		`users`. *
+	FROM
+		`users`
+	WHERE
+		`users`.`id` = 1 LIMIT 1[0m
+  
+ActionController::RoutingError (No route matches [GET] "/app/assets/images/IMG_0038.JPG"):
+  
+actionpack (5.2.2) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.2) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.2) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.2) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.2) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.2) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.2) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.2) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.3) lib/rack/method_override.rb:24:in `call'
+rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.2) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+railties (5.2.2) lib/rails/engine.rb:524:in `call'
+puma (3.11.2) lib/puma/configuration.rb:225:in `call'
+puma (3.11.2) lib/puma/server.rb:624:in `handle_request'
+puma (3.11.2) lib/puma/server.rb:438:in `process_client'
+puma (3.11.2) lib/puma/server.rb:302:in `block in run'
+puma (3.11.2) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+  Rendering home/index.html.erb within layouts/application
+  Rendered users/_login_form.html.erb (1.5ms)
+  Rendered home/index.html.erb within layouts/application (41.7ms)
+  Rendered application/_header.html.erb (1.8ms)
+Completed 200 OK in 666ms (Views: 603.2ms | ActiveRecord: 1.3ms)
+
+
+Started GET "/app/assets/images/IMG_0038.JPG" for 172.23.0.1 at 2021-09-20 07:02:33 +0000
+  
+ActionController::RoutingError (No route matches [GET] "/app/assets/images/IMG_0038.JPG"):
+  
+actionpack (5.2.2) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.2) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.2) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.2) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.2) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.2) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.2) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.2) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.3) lib/rack/method_override.rb:24:in `call'
+rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.2) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+railties (5.2.2) lib/rails/engine.rb:524:in `call'
+puma (3.11.2) lib/puma/configuration.rb:225:in `call'
+puma (3.11.2) lib/puma/server.rb:624:in `handle_request'
+puma (3.11.2) lib/puma/server.rb:438:in `process_client'
+puma (3.11.2) lib/puma/server.rb:302:in `block in run'
+puma (3.11.2) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started GET "/" for 172.23.0.1 at 2021-09-20 07:02:33 +0000
+Processing by HomeController#index as HTML
+Started GET "/app/assets/images/IMG_0038.JPG" for 172.23.0.1 at 2021-09-20 07:02:34 +0000
+  [1m[36mUser Load (18.8ms)[0m  [1m[34m
+	SELECT
+		`users`. *
+	FROM
+		`users`
+	WHERE
+		`users`.`id` = 1 LIMIT 1[0m
+  
+ActionController::RoutingError (No route matches [GET] "/app/assets/images/IMG_0038.JPG"):
+  
+actionpack (5.2.2) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.2) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.2) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.2) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.2) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.2) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.2) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.2) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.3) lib/rack/method_override.rb:24:in `call'
+rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.2) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+railties (5.2.2) lib/rails/engine.rb:524:in `call'
+puma (3.11.2) lib/puma/configuration.rb:225:in `call'
+puma (3.11.2) lib/puma/server.rb:624:in `handle_request'
+puma (3.11.2) lib/puma/server.rb:438:in `process_client'
+puma (3.11.2) lib/puma/server.rb:302:in `block in run'
+puma (3.11.2) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+  Rendering home/index.html.erb within layouts/application
+  Rendered users/_login_form.html.erb (1.4ms)
+  Rendered home/index.html.erb within layouts/application (108.5ms)
+  Rendered application/_header.html.erb (1.6ms)
+Completed 200 OK in 754ms (Views: 688.3ms | ActiveRecord: 18.8ms)
+
+
+Started GET "/app/assets/images/IMG_0038.JPG" for 172.23.0.1 at 2021-09-20 07:02:34 +0000
+  
+ActionController::RoutingError (No route matches [GET] "/app/assets/images/IMG_0038.JPG"):
+  
+actionpack (5.2.2) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.2) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.2) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.2) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.2) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.2) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.2) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.2) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.3) lib/rack/method_override.rb:24:in `call'
+rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.2) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+railties (5.2.2) lib/rails/engine.rb:524:in `call'
+puma (3.11.2) lib/puma/configuration.rb:225:in `call'
+puma (3.11.2) lib/puma/server.rb:624:in `handle_request'
+puma (3.11.2) lib/puma/server.rb:438:in `process_client'
+puma (3.11.2) lib/puma/server.rb:302:in `block in run'
+puma (3.11.2) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started GET "/" for 172.23.0.1 at 2021-09-20 08:15:55 +0000
+  [1m[35m (1.7ms)[0m  [1m[35m
+	SET
+NAMES utf8
+,@@SESSION.sql_mode = CONCAT( CONCAT( @@sql_mode ,',STRICT_ALL_TABLES' ) ,',NO_AUTO_VALUE_ON_ZERO' )
+,@@SESSION.sql_auto_is_null = 0
+,@@SESSION.wait_timeout = 2147483[0m
+Processing by HomeController#index as HTML
+  [1m[36mUser Load (2.2ms)[0m  [1m[34m
+	SELECT
+		`users`. *
+	FROM
+		`users`
+	WHERE
+		`users`.`id` = 1 LIMIT 1[0m
+  Rendering home/index.html.erb within layouts/application
+  Rendered users/_login_form.html.erb (4.0ms)
+  Rendered home/index.html.erb within layouts/application (34.4ms)
+  Rendered application/_header.html.erb (2.7ms)
+Completed 200 OK in 625ms (Views: 559.7ms | ActiveRecord: 3.5ms)
+
+
+Started GET "/app/assets/images/IMG_0038.JPG" for 172.23.0.1 at 2021-09-20 08:15:56 +0000
+  
+ActionController::RoutingError (No route matches [GET] "/app/assets/images/IMG_0038.JPG"):
+  
+actionpack (5.2.2) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.2) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.2) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.2) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.2) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.2) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.2) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.2) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.3) lib/rack/method_override.rb:24:in `call'
+rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.2) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+railties (5.2.2) lib/rails/engine.rb:524:in `call'
+puma (3.11.2) lib/puma/configuration.rb:225:in `call'
+puma (3.11.2) lib/puma/server.rb:624:in `handle_request'
+puma (3.11.2) lib/puma/server.rb:438:in `process_client'
+puma (3.11.2) lib/puma/server.rb:302:in `block in run'
+puma (3.11.2) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started GET "/" for 172.23.0.1 at 2021-09-20 08:16:14 +0000
+Processing by HomeController#index as HTML
+  [1m[36mUser Load (0.8ms)[0m  [1m[34m
+	SELECT
+		`users`. *
+	FROM
+		`users`
+	WHERE
+		`users`.`id` = 1 LIMIT 1[0m
+  Rendering home/index.html.erb within layouts/application
+  Rendered users/_login_form.html.erb (2.7ms)
+  Rendered home/index.html.erb within layouts/application (33.3ms)
+  Rendered application/_header.html.erb (1.3ms)
+Completed 200 OK in 521ms (Views: 478.9ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/app/assets/images/IMG_0038.JPG" for 172.23.0.1 at 2021-09-20 08:16:14 +0000
+  
+ActionController::RoutingError (No route matches [GET] "/app/assets/images/IMG_0038.JPG"):
+  
+actionpack (5.2.2) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.2) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.2) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.2) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.2) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.2) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.2) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.2) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.3) lib/rack/method_override.rb:24:in `call'
+rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.2) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+railties (5.2.2) lib/rails/engine.rb:524:in `call'
+puma (3.11.2) lib/puma/configuration.rb:225:in `call'
+puma (3.11.2) lib/puma/server.rb:624:in `handle_request'
+puma (3.11.2) lib/puma/server.rb:438:in `process_client'
+puma (3.11.2) lib/puma/server.rb:302:in `block in run'
+puma (3.11.2) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started GET "/" for 172.23.0.1 at 2021-09-20 08:21:50 +0000
+Processing by HomeController#index as HTML
+  [1m[36mUser Load (1.8ms)[0m  [1m[34m
+	SELECT
+		`users`. *
+	FROM
+		`users`
+	WHERE
+		`users`.`id` = 1 LIMIT 1[0m
+  Rendering home/index.html.erb within layouts/application
+  Rendered users/_login_form.html.erb (1.3ms)
+  Rendered home/index.html.erb within layouts/application (31.4ms)
+  Rendered application/_header.html.erb (2.2ms)
+Completed 200 OK in 576ms (Views: 529.8ms | ActiveRecord: 1.8ms)
+
+
+Started GET "/app/assets/images/IMG_0038.JPG" for 172.23.0.1 at 2021-09-20 08:21:51 +0000
+  
+ActionController::RoutingError (No route matches [GET] "/app/assets/images/IMG_0038.JPG"):
+  
+actionpack (5.2.2) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.2) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.2) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.2) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.2) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.2) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.2) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.2) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.3) lib/rack/method_override.rb:24:in `call'
+rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.2) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+railties (5.2.2) lib/rails/engine.rb:524:in `call'
+puma (3.11.2) lib/puma/configuration.rb:225:in `call'
+puma (3.11.2) lib/puma/server.rb:624:in `handle_request'
+puma (3.11.2) lib/puma/server.rb:438:in `process_client'
+puma (3.11.2) lib/puma/server.rb:302:in `block in run'
+puma (3.11.2) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started GET "/" for 172.23.0.1 at 2021-09-20 08:22:18 +0000
+Processing by HomeController#index as HTML
+  [1m[36mUser Load (1.1ms)[0m  [1m[34m
+	SELECT
+		`users`. *
+	FROM
+		`users`
+	WHERE
+		`users`.`id` = 1 LIMIT 1[0m
+  Rendering home/index.html.erb within layouts/application
+  Rendered users/_login_form.html.erb (1.3ms)
+  Rendered home/index.html.erb within layouts/application (36.6ms)
+  Rendered application/_header.html.erb (1.1ms)
+Completed 200 OK in 597ms (Views: 545.0ms | ActiveRecord: 1.1ms)
+
+
+Started GET "/app/assets/images/IMG_0038.JPG" for 172.23.0.1 at 2021-09-20 08:22:19 +0000
+  
+ActionController::RoutingError (No route matches [GET] "/app/assets/images/IMG_0038.JPG"):
+  
+actionpack (5.2.2) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.2) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.2) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.2) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.2) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.2) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.2) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.2) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.3) lib/rack/method_override.rb:24:in `call'
+rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.2) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+railties (5.2.2) lib/rails/engine.rb:524:in `call'
+puma (3.11.2) lib/puma/configuration.rb:225:in `call'
+puma (3.11.2) lib/puma/server.rb:624:in `handle_request'
+puma (3.11.2) lib/puma/server.rb:438:in `process_client'
+puma (3.11.2) lib/puma/server.rb:302:in `block in run'
+puma (3.11.2) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started GET "/" for 172.23.0.1 at 2021-09-20 08:22:21 +0000
+Processing by HomeController#index as HTML
+  [1m[36mUser Load (1.4ms)[0m  [1m[34m
+	SELECT
+		`users`. *
+	FROM
+		`users`
+	WHERE
+		`users`.`id` = 1 LIMIT 1[0m
+  Rendering home/index.html.erb within layouts/application
+  Rendered users/_login_form.html.erb (2.1ms)
+  Rendered home/index.html.erb within layouts/application (58.1ms)
+  Rendered application/_header.html.erb (2.3ms)
+Completed 200 OK in 849ms (Views: 787.2ms | ActiveRecord: 1.4ms)
+
+
+Started GET "/app/assets/images/IMG_0038.JPG" for 172.23.0.1 at 2021-09-20 08:22:22 +0000
+  
+ActionController::RoutingError (No route matches [GET] "/app/assets/images/IMG_0038.JPG"):
+  
+actionpack (5.2.2) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.2) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.2) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.2) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.2) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.2) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.2) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.2) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.3) lib/rack/method_override.rb:24:in `call'
+rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.2) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+railties (5.2.2) lib/rails/engine.rb:524:in `call'
+puma (3.11.2) lib/puma/configuration.rb:225:in `call'
+puma (3.11.2) lib/puma/server.rb:624:in `handle_request'
+puma (3.11.2) lib/puma/server.rb:438:in `process_client'
+puma (3.11.2) lib/puma/server.rb:302:in `block in run'
+puma (3.11.2) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started GET "/" for 172.23.0.1 at 2021-09-20 08:22:33 +0000
+Processing by HomeController#index as HTML
+  [1m[36mUser Load (1.4ms)[0m  [1m[34m
+	SELECT
+		`users`. *
+	FROM
+		`users`
+	WHERE
+		`users`.`id` = 1 LIMIT 1[0m
+  Rendering home/index.html.erb within layouts/application
+  Rendered users/_login_form.html.erb (1.7ms)
+  Rendered home/index.html.erb within layouts/application (46.0ms)
+  Rendered application/_header.html.erb (1.3ms)
+Completed 200 OK in 659ms (Views: 595.8ms | ActiveRecord: 1.4ms)
+
+
+Started GET "/app/assets/images/IMG_0038.JPG" for 172.23.0.1 at 2021-09-20 08:22:34 +0000
+  
+ActionController::RoutingError (No route matches [GET] "/app/assets/images/IMG_0038.JPG"):
+  
+actionpack (5.2.2) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.2) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.2) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.2) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.2) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.2) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.2) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.2) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.3) lib/rack/method_override.rb:24:in `call'
+rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.2) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+railties (5.2.2) lib/rails/engine.rb:524:in `call'
+puma (3.11.2) lib/puma/configuration.rb:225:in `call'
+puma (3.11.2) lib/puma/server.rb:624:in `handle_request'
+puma (3.11.2) lib/puma/server.rb:438:in `process_client'
+puma (3.11.2) lib/puma/server.rb:302:in `block in run'
+puma (3.11.2) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started GET "/" for 172.23.0.1 at 2021-09-20 08:22:55 +0000
+Processing by HomeController#index as HTML
+  [1m[36mUser Load (1.1ms)[0m  [1m[34m
+	SELECT
+		`users`. *
+	FROM
+		`users`
+	WHERE
+		`users`.`id` = 1 LIMIT 1[0m
+  Rendering home/index.html.erb within layouts/application
+  Rendered users/_login_form.html.erb (2.4ms)
+  Rendered home/index.html.erb within layouts/application (44.1ms)
+  Rendered application/_header.html.erb (1.8ms)
+Completed 200 OK in 658ms (Views: 582.2ms | ActiveRecord: 1.1ms)
+
+
+Started GET "/app/assets/images/IMG_0038.JPG" for 172.23.0.1 at 2021-09-20 08:22:56 +0000
+  
+ActionController::RoutingError (No route matches [GET] "/app/assets/images/IMG_0038.JPG"):
+  
+actionpack (5.2.2) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.2) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.2) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.2) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.2) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.2) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.2) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.2) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.3) lib/rack/method_override.rb:24:in `call'
+rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.2) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+railties (5.2.2) lib/rails/engine.rb:524:in `call'
+puma (3.11.2) lib/puma/configuration.rb:225:in `call'
+puma (3.11.2) lib/puma/server.rb:624:in `handle_request'
+puma (3.11.2) lib/puma/server.rb:438:in `process_client'
+puma (3.11.2) lib/puma/server.rb:302:in `block in run'
+puma (3.11.2) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started GET "/rails/info/routes" for 172.23.0.1 at 2021-09-20 08:24:02 +0000
+Processing by Rails::InfoController#routes as HTML
+  Rendering /usr/local/bundle/gems/railties-5.2.2/lib/rails/templates/rails/info/routes.html.erb within layouts/application
+  Rendered collection of /usr/local/bundle/gems/actionpack-5.2.2/lib/action_dispatch/middleware/templates/routes/_route.html.erb [21 times] (11.5ms)
+  Rendered /usr/local/bundle/gems/actionpack-5.2.2/lib/action_dispatch/middleware/templates/routes/_table.html.erb (2.1ms)
+  Rendered /usr/local/bundle/gems/railties-5.2.2/lib/rails/templates/rails/info/routes.html.erb within layouts/application (22.5ms)
+Completed 200 OK in 40ms (Views: 31.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 172.23.0.1 at 2021-09-20 08:25:39 +0000
+Processing by HomeController#index as HTML
+  [1m[36mUser Load (1.1ms)[0m  [1m[34m
+	SELECT
+		`users`. *
+	FROM
+		`users`
+	WHERE
+		`users`.`id` = 1 LIMIT 1[0m
+  Rendering home/index.html.erb within layouts/application
+  Rendered users/_login_form.html.erb (2.2ms)
+  Rendered home/index.html.erb within layouts/application (48.2ms)
+  Rendered application/_header.html.erb (4.0ms)
+Completed 200 OK in 851ms (Views: 802.8ms | ActiveRecord: 1.1ms)
+
+
+Started GET "/app/assets/images/IMG_0038.JPG" for 172.23.0.1 at 2021-09-20 08:25:40 +0000
+  
+ActionController::RoutingError (No route matches [GET] "/app/assets/images/IMG_0038.JPG"):
+  
+actionpack (5.2.2) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.2) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.2) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.2) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.2) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.2) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.2) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.2) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.3) lib/rack/method_override.rb:24:in `call'
+rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.2) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+railties (5.2.2) lib/rails/engine.rb:524:in `call'
+puma (3.11.2) lib/puma/configuration.rb:225:in `call'
+puma (3.11.2) lib/puma/server.rb:624:in `handle_request'
+puma (3.11.2) lib/puma/server.rb:438:in `process_client'
+puma (3.11.2) lib/puma/server.rb:302:in `block in run'
+puma (3.11.2) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started GET "/boards" for 172.23.0.1 at 2021-09-20 08:40:59 +0000
+  [1m[35m (1.8ms)[0m  [1m[35m
+	SET
+NAMES utf8
+,@@SESSION.sql_mode = CONCAT( CONCAT( @@sql_mode ,',STRICT_ALL_TABLES' ) ,',NO_AUTO_VALUE_ON_ZERO' )
+,@@SESSION.sql_auto_is_null = 0
+,@@SESSION.wait_timeout = 2147483[0m
+Processing by BoardsController#index as HTML
+  [1m[36mUser Load (1.2ms)[0m  [1m[34m
+	SELECT
+		`users`. *
+	FROM
+		`users`
+	WHERE
+		`users`.`id` = 1 LIMIT 1[0m
+  Rendering boards/index.html.erb within layouts/application
+  [1m[36mTag Load (0.8ms)[0m  [1m[34m
+	SELECT
+		`tags`. *
+	FROM
+		`tags`[0m
+  [1m[36mBoard Load (1.0ms)[0m  [1m[34m
+	SELECT
+		`boards`. *
+	FROM
+		`boards` LIMIT 10 OFFSET 0[0m
+  [1m[35m (0.8ms)[0m  [1m[34m
+	SELECT
+		COUNT( * )
+	FROM
+		`boards`[0m
+  Rendered boards/index.html.erb within layouts/application (283.0ms)
+  Rendered application/_header.html.erb (1.1ms)
+Completed 200 OK in 721ms (Views: 665.5ms | ActiveRecord: 7.0ms)
+
+
+Started GET "/app/assets/images/IMG_0038.JPG" for 172.23.0.1 at 2021-09-20 08:41:00 +0000
+  
+ActionController::RoutingError (No route matches [GET] "/app/assets/images/IMG_0038.JPG"):
+  
+actionpack (5.2.2) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.2) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.2) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.2) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.2) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.2) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.2) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.2) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.3) lib/rack/method_override.rb:24:in `call'
+rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.2) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+railties (5.2.2) lib/rails/engine.rb:524:in `call'
+puma (3.11.2) lib/puma/configuration.rb:225:in `call'
+puma (3.11.2) lib/puma/server.rb:624:in `handle_request'
+puma (3.11.2) lib/puma/server.rb:438:in `process_client'
+puma (3.11.2) lib/puma/server.rb:302:in `block in run'
+puma (3.11.2) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started GET "/boards" for 172.23.0.1 at 2021-09-20 08:41:02 +0000
+Processing by BoardsController#index as HTML
+  [1m[36mUser Load (1.7ms)[0m  [1m[34m
+	SELECT
+		`users`. *
+	FROM
+		`users`
+	WHERE
+		`users`.`id` = 1 LIMIT 1[0m
+  Rendering boards/index.html.erb within layouts/application
+  [1m[36mTag Load (0.6ms)[0m  [1m[34m
+	SELECT
+		`tags`. *
+	FROM
+		`tags`[0m
+  [1m[36mBoard Load (0.6ms)[0m  [1m[34m
+	SELECT
+		`boards`. *
+	FROM
+		`boards` LIMIT 10 OFFSET 0[0m
+  [1m[35m (0.6ms)[0m  [1m[34m
+	SELECT
+		COUNT( * )
+	FROM
+		`boards`[0m
+  Rendered boards/index.html.erb within layouts/application (283.6ms)
+  Rendered application/_header.html.erb (1.1ms)
+Completed 200 OK in 717ms (Views: 663.6ms | ActiveRecord: 3.5ms)
+
+
+Started GET "/boards/1" for 172.23.0.1 at 2021-09-20 08:43:32 +0000
+Processing by BoardsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mUser Load (1.0ms)[0m  [1m[34m
+	SELECT
+		`users`. *
+	FROM
+		`users`
+	WHERE
+		`users`.`id` = 1 LIMIT 1[0m
+  [1m[36mBoard Load (1.2ms)[0m  [1m[34m
+	SELECT
+		`boards`. *
+	FROM
+		`boards`
+	WHERE
+		`boards`.`id` = 1 LIMIT 1[0m
+  Rendering boards/show.html.erb within layouts/application
+  [1m[36mTag Load (4.3ms)[0m  [1m[34m
+	SELECT
+		`tags`. *
+	FROM
+		`tags` INNER JOIN `board_tag_relations`
+			ON `tags`.`id` = `board_tag_relations`.`tag_id`
+	WHERE
+		`board_tag_relations`.`board_id` = 1[0m
+  Rendered boards/_board.html.erb (110.1ms)
+  [1m[36mComment Load (1.4ms)[0m  [1m[34m
+	SELECT
+		`comments`. *
+	FROM
+		`comments`
+	WHERE
+		`comments`.`board_id` = 1[0m
+  Rendered collection of comments/_comment.html.erb [2 times] (5.8ms)
+  Rendered shared/_error_messages.html.erb (1.3ms)
+  Rendered comments/_form.html.erb (70.2ms)
+  Rendered boards/show.html.erb within layouts/application (548.8ms)
+  Rendered application/_header.html.erb (4.3ms)
+Completed 200 OK in 1490ms (Views: 1256.3ms | ActiveRecord: 49.9ms)
+
+
+Started GET "/boards" for 172.23.0.1 at 2021-09-20 08:45:38 +0000
+Processing by BoardsController#index as HTML
+  [1m[36mUser Load (1.9ms)[0m  [1m[34m
+	SELECT
+		`users`. *
+	FROM
+		`users`
+	WHERE
+		`users`.`id` = 1 LIMIT 1[0m
+  Rendering boards/index.html.erb within layouts/application
+  [1m[36mTag Load (1.0ms)[0m  [1m[34m
+	SELECT
+		`tags`. *
+	FROM
+		`tags`[0m
+  [1m[36mBoard Load (0.9ms)[0m  [1m[34m
+	SELECT
+		`boards`. *
+	FROM
+		`boards` LIMIT 10 OFFSET 0[0m
+  [1m[35m (1.0ms)[0m  [1m[34m
+	SELECT
+		COUNT( * )
+	FROM
+		`boards`[0m
+  Rendered boards/index.html.erb within layouts/application (489.9ms)
+  Rendered application/_header.html.erb (1.6ms)
+Completed 200 OK in 1272ms (Views: 1201.1ms | ActiveRecord: 4.9ms)
+
+
+Started GET "/boards" for 172.23.0.1 at 2021-09-20 08:47:23 +0000
+Processing by BoardsController#index as HTML
+  [1m[36mUser Load (1.6ms)[0m  [1m[34m
+	SELECT
+		`users`. *
+	FROM
+		`users`
+	WHERE
+		`users`.`id` = 1 LIMIT 1[0m
+  Rendering boards/index.html.erb within layouts/application
+  [1m[36mTag Load (0.8ms)[0m  [1m[34m
+	SELECT
+		`tags`. *
+	FROM
+		`tags`[0m
+  [1m[36mBoard Load (1.2ms)[0m  [1m[34m
+	SELECT
+		`boards`. *
+	FROM
+		`boards` LIMIT 10 OFFSET 0[0m
+  [1m[35m (0.9ms)[0m  [1m[34m
+	SELECT
+		COUNT( * )
+	FROM
+		`boards`[0m
+  Rendered boards/index.html.erb within layouts/application (407.1ms)
+  Rendered application/_header.html.erb (1.3ms)
+Completed 200 OK in 1070ms (Views: 988.8ms | ActiveRecord: 4.5ms)
+
+
+Started GET "/boards" for 172.23.0.1 at 2021-09-20 08:48:24 +0000
+Processing by BoardsController#index as HTML
+  [1m[36mUser Load (1.1ms)[0m  [1m[34m
+	SELECT
+		`users`. *
+	FROM
+		`users`
+	WHERE
+		`users`.`id` = 1 LIMIT 1[0m
+  Rendering boards/index.html.erb within layouts/application
+  [1m[36mTag Load (0.7ms)[0m  [1m[34m
+	SELECT
+		`tags`. *
+	FROM
+		`tags`[0m
+  [1m[36mBoard Load (0.9ms)[0m  [1m[34m
+	SELECT
+		`boards`. *
+	FROM
+		`boards` LIMIT 10 OFFSET 0[0m
+  [1m[35m (0.9ms)[0m  [1m[34m
+	SELECT
+		COUNT( * )
+	FROM
+		`boards`[0m
+  Rendered boards/index.html.erb within layouts/application (402.2ms)
+  Rendered application/_header.html.erb (2.3ms)
+Completed 200 OK in 1062ms (Views: 998.7ms | ActiveRecord: 3.6ms)
+
+
+Started GET "/boards" for 172.23.0.1 at 2021-09-20 08:48:59 +0000
+Processing by BoardsController#index as HTML
+  [1m[36mUser Load (0.7ms)[0m  [1m[34m
+	SELECT
+		`users`. *
+	FROM
+		`users`
+	WHERE
+		`users`.`id` = 1 LIMIT 1[0m
+  Rendering boards/index.html.erb within layouts/application
+  [1m[36mTag Load (1.0ms)[0m  [1m[34m
+	SELECT
+		`tags`. *
+	FROM
+		`tags`[0m
+  [1m[36mBoard Load (0.9ms)[0m  [1m[34m
+	SELECT
+		`boards`. *
+	FROM
+		`boards` LIMIT 10 OFFSET 0[0m
+  [1m[35m (1.4ms)[0m  [1m[34m
+	SELECT
+		COUNT( * )
+	FROM
+		`boards`[0m
+  Rendered boards/index.html.erb within layouts/application (503.5ms)
+  Rendered application/_header.html.erb (2.7ms)
+Completed 200 OK in 1239ms (Views: 1177.0ms | ActiveRecord: 3.9ms)
+
+
+Started GET "/home" for 172.23.0.1 at 2021-09-20 08:53:39 +0000
+  
+ActionController::RoutingError (No route matches [GET] "/home"):
+  
+actionpack (5.2.2) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.2) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.2) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.2) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.2) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.2) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.2) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.2) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.3) lib/rack/method_override.rb:24:in `call'
+rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.2) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+railties (5.2.2) lib/rails/engine.rb:524:in `call'
+puma (3.11.2) lib/puma/configuration.rb:225:in `call'
+puma (3.11.2) lib/puma/server.rb:624:in `handle_request'
+puma (3.11.2) lib/puma/server.rb:438:in `process_client'
+puma (3.11.2) lib/puma/server.rb:302:in `block in run'
+puma (3.11.2) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started GET "/home/" for 172.23.0.1 at 2021-09-20 08:53:46 +0000
+  
+ActionController::RoutingError (No route matches [GET] "/home"):
+  
+actionpack (5.2.2) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.2) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.2) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.2) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.2) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.2) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.2) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.2) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.3) lib/rack/method_override.rb:24:in `call'
+rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.2) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+railties (5.2.2) lib/rails/engine.rb:524:in `call'
+puma (3.11.2) lib/puma/configuration.rb:225:in `call'
+puma (3.11.2) lib/puma/server.rb:624:in `handle_request'
+puma (3.11.2) lib/puma/server.rb:438:in `process_client'
+puma (3.11.2) lib/puma/server.rb:302:in `block in run'
+puma (3.11.2) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started GET "/1" for 172.23.0.1 at 2021-09-20 08:53:56 +0000
+  
+ActionController::RoutingError (No route matches [GET] "/1"):
+  
+actionpack (5.2.2) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.2) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.2) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.2) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.2) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.2) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.2) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.2) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.3) lib/rack/method_override.rb:24:in `call'
+rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.2) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+railties (5.2.2) lib/rails/engine.rb:524:in `call'
+puma (3.11.2) lib/puma/configuration.rb:225:in `call'
+puma (3.11.2) lib/puma/server.rb:624:in `handle_request'
+puma (3.11.2) lib/puma/server.rb:438:in `process_client'
+puma (3.11.2) lib/puma/server.rb:302:in `block in run'
+puma (3.11.2) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started GET "/" for 172.23.0.1 at 2021-09-20 08:54:10 +0000
+Processing by HomeController#index as HTML
+  [1m[36mUser Load (1.1ms)[0m  [1m[34m
+	SELECT
+		`users`. *
+	FROM
+		`users`
+	WHERE
+		`users`.`id` = 1 LIMIT 1[0m
+  Rendering home/index.html.erb within layouts/application
+  Rendered users/_login_form.html.erb (1.7ms)
+  Rendered home/index.html.erb within layouts/application (32.2ms)
+  Rendered application/_header.html.erb (1.1ms)
+Completed 200 OK in 505ms (Views: 461.1ms | ActiveRecord: 1.1ms)
+
+
+Started GET "/app/assets/images/IMG_0038.JPG" for 172.23.0.1 at 2021-09-20 08:54:11 +0000
+  
+ActionController::RoutingError (No route matches [GET] "/app/assets/images/IMG_0038.JPG"):
+  
+actionpack (5.2.2) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.2) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.2) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.2) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.2) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.2) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.2) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.2) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.3) lib/rack/method_override.rb:24:in `call'
+rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.2) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+railties (5.2.2) lib/rails/engine.rb:524:in `call'
+puma (3.11.2) lib/puma/configuration.rb:225:in `call'
+puma (3.11.2) lib/puma/server.rb:624:in `handle_request'
+puma (3.11.2) lib/puma/server.rb:438:in `process_client'
+puma (3.11.2) lib/puma/server.rb:302:in `block in run'
+puma (3.11.2) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started GET "/boards" for 172.23.0.1 at 2021-09-20 08:55:30 +0000
+Processing by BoardsController#index as HTML
+  [1m[36mUser Load (1.8ms)[0m  [1m[34m
+	SELECT
+		`users`. *
+	FROM
+		`users`
+	WHERE
+		`users`.`id` = 1 LIMIT 1[0m
+  Rendering boards/index.html.erb within layouts/application
+  [1m[36mTag Load (0.6ms)[0m  [1m[34m
+	SELECT
+		`tags`. *
+	FROM
+		`tags`[0m
+  [1m[36mBoard Load (0.5ms)[0m  [1m[34m
+	SELECT
+		`boards`. *
+	FROM
+		`boards` LIMIT 10 OFFSET 0[0m
+  [1m[35m (0.7ms)[0m  [1m[34m
+	SELECT
+		COUNT( * )
+	FROM
+		`boards`[0m
+  Rendered boards/index.html.erb within layouts/application (274.0ms)
+  Rendered application/_header.html.erb (1.4ms)
+Completed 200 OK in 740ms (Views: 681.3ms | ActiveRecord: 3.6ms)
+
+
+Started GET "/app/assets/images/IMG_0038.JPG" for 172.23.0.1 at 2021-09-20 08:55:30 +0000
+  
+ActionController::RoutingError (No route matches [GET] "/app/assets/images/IMG_0038.JPG"):
+  
+actionpack (5.2.2) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.2) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.2) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.2) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.2) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.2) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.2) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.2) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.3) lib/rack/method_override.rb:24:in `call'
+rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.2) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+railties (5.2.2) lib/rails/engine.rb:524:in `call'
+puma (3.11.2) lib/puma/configuration.rb:225:in `call'
+puma (3.11.2) lib/puma/server.rb:624:in `handle_request'
+puma (3.11.2) lib/puma/server.rb:438:in `process_client'
+puma (3.11.2) lib/puma/server.rb:302:in `block in run'
+puma (3.11.2) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started GET "/" for 172.23.0.1 at 2021-09-20 08:55:32 +0000
+Processing by HomeController#index as HTML
+Started GET "/app/assets/images/IMG_0038.JPG" for 172.23.0.1 at 2021-09-20 08:55:32 +0000
+  [1m[36mUser Load (1.7ms)[0m  [1m[34m
+	SELECT
+		`users`. *
+	FROM
+		`users`
+	WHERE
+		`users`.`id` = 1 LIMIT 1[0m
+  [1m[35m (0.5ms)[0m  [1m[35m
+	SET
+NAMES utf8
+,@@SESSION.sql_mode = CONCAT( CONCAT( @@sql_mode ,',STRICT_ALL_TABLES' ) ,',NO_AUTO_VALUE_ON_ZERO' )
+,@@SESSION.sql_auto_is_null = 0
+,@@SESSION.wait_timeout = 2147483[0m
+  
+ActionController::RoutingError (No route matches [GET] "/app/assets/images/IMG_0038.JPG"):
+  
+actionpack (5.2.2) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.2) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.2) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.2) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.2) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.2) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.2) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.2) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.3) lib/rack/method_override.rb:24:in `call'
+rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.2) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+railties (5.2.2) lib/rails/engine.rb:524:in `call'
+puma (3.11.2) lib/puma/configuration.rb:225:in `call'
+puma (3.11.2) lib/puma/server.rb:624:in `handle_request'
+puma (3.11.2) lib/puma/server.rb:438:in `process_client'
+puma (3.11.2) lib/puma/server.rb:302:in `block in run'
+puma (3.11.2) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+  Rendering home/index.html.erb within layouts/application
+  Rendered users/_login_form.html.erb (1.5ms)
+  Rendered home/index.html.erb within layouts/application (36.5ms)
+  Rendered application/_header.html.erb (1.1ms)
+Completed 200 OK in 547ms (Views: 494.4ms | ActiveRecord: 1.7ms)
+
+
+Started GET "/app/assets/images/IMG_0038.JPG" for 172.23.0.1 at 2021-09-20 08:55:33 +0000
+  
+ActionController::RoutingError (No route matches [GET] "/app/assets/images/IMG_0038.JPG"):
+  
+actionpack (5.2.2) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.2) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.2) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.2) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.2) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.2) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.2) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.2) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.3) lib/rack/method_override.rb:24:in `call'
+rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.2) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+railties (5.2.2) lib/rails/engine.rb:524:in `call'
+puma (3.11.2) lib/puma/configuration.rb:225:in `call'
+puma (3.11.2) lib/puma/server.rb:624:in `handle_request'
+puma (3.11.2) lib/puma/server.rb:438:in `process_client'
+puma (3.11.2) lib/puma/server.rb:302:in `block in run'
+puma (3.11.2) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started GET "/" for 172.23.0.1 at 2021-10-03 05:08:15 +0000
+  [1m[35m (5.1ms)[0m  [1m[35m
+	SET
+NAMES utf8
+,@@SESSION.sql_mode = CONCAT( CONCAT( @@sql_mode ,',STRICT_ALL_TABLES' ) ,',NO_AUTO_VALUE_ON_ZERO' )
+,@@SESSION.sql_auto_is_null = 0
+,@@SESSION.wait_timeout = 2147483[0m
+  [1m[35m (0.6ms)[0m  [1m[34m
+	SELECT
+		`schema_migrations`.`version`
+	FROM
+		`schema_migrations`
+	ORDER BY
+		`schema_migrations`.`version` ASC[0m
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered users/_login_form.html.erb (50.3ms)
+  Rendered home/index.html.erb within layouts/application (84.5ms)
+  Rendered application/_header.html.erb (1.3ms)
+Completed 200 OK in 2374ms (Views: 2340.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/app/assets/images/IMG_0038.JPG" for 172.23.0.1 at 2021-10-03 05:08:18 +0000
+  
+ActionController::RoutingError (No route matches [GET] "/app/assets/images/IMG_0038.JPG"):
+  
+actionpack (5.2.2) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.2) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.2) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.2) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.2) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.2) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.2) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.2) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.3) lib/rack/method_override.rb:24:in `call'
+rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.2) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+railties (5.2.2) lib/rails/engine.rb:524:in `call'
+puma (3.11.2) lib/puma/configuration.rb:225:in `call'
+puma (3.11.2) lib/puma/server.rb:624:in `handle_request'
+puma (3.11.2) lib/puma/server.rb:438:in `process_client'
+puma (3.11.2) lib/puma/server.rb:302:in `block in run'
+puma (3.11.2) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started GET "/boards" for 172.23.0.1 at 2021-10-03 05:08:32 +0000
+Processing by BoardsController#index as HTML
+  Rendering boards/index.html.erb within layouts/application
+  [1m[36mTag Load (1.9ms)[0m  [1m[34m
+	SELECT
+		`tags`. *
+	FROM
+		`tags`[0m
+  [1m[36mBoard Load (1.4ms)[0m  [1m[34m
+	SELECT
+		`boards`. *
+	FROM
+		`boards` LIMIT 10 OFFSET 0[0m
+  [1m[35m (1.4ms)[0m  [1m[34m
+	SELECT
+		COUNT( * )
+	FROM
+		`boards`[0m
+  Rendered boards/index.html.erb within layouts/application (854.5ms)
+  Rendered application/_header.html.erb (1.1ms)
+Completed 200 OK in 1378ms (Views: 1220.5ms | ActiveRecord: 9.0ms)
+
+
+Started GET "/app/assets/images/IMG_0038.JPG" for 172.23.0.1 at 2021-10-03 05:08:33 +0000
+  
+ActionController::RoutingError (No route matches [GET] "/app/assets/images/IMG_0038.JPG"):
+  
+actionpack (5.2.2) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.2) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.2) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.2) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.2) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.2) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.2) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.2) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.3) lib/rack/method_override.rb:24:in `call'
+rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.2) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+railties (5.2.2) lib/rails/engine.rb:524:in `call'
+puma (3.11.2) lib/puma/configuration.rb:225:in `call'
+puma (3.11.2) lib/puma/server.rb:624:in `handle_request'
+puma (3.11.2) lib/puma/server.rb:438:in `process_client'
+puma (3.11.2) lib/puma/server.rb:302:in `block in run'
+puma (3.11.2) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started GET "/users/new" for 172.23.0.1 at 2021-10-03 05:08:36 +0000
+Processing by UsersController#new as HTML
+  Rendering users/new.html.erb within layouts/application
+  Rendered shared/_error_messages.html.erb (0.4ms)
+  Rendered users/_form.html.erb (20.8ms)
+  Rendered users/new.html.erb within layouts/application (41.7ms)
+  Rendered application/_header.html.erb (1.1ms)
+Completed 200 OK in 386ms (Views: 309.8ms | ActiveRecord: 2.7ms)
+
+
+Started GET "/" for 172.23.0.1 at 2021-10-03 05:08:39 +0000
+Processing by HomeController#index as HTML
+Started GET "/app/assets/images/IMG_0038.JPG" for 172.23.0.1 at 2021-10-03 05:08:39 +0000
+  [1m[35m (0.5ms)[0m  [1m[35m
+	SET
+NAMES utf8
+,@@SESSION.sql_mode = CONCAT( CONCAT( @@sql_mode ,',STRICT_ALL_TABLES' ) ,',NO_AUTO_VALUE_ON_ZERO' )
+,@@SESSION.sql_auto_is_null = 0
+,@@SESSION.wait_timeout = 2147483[0m
+  
+ActionController::RoutingError (No route matches [GET] "/app/assets/images/IMG_0038.JPG"):
+  
+actionpack (5.2.2) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.2) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.2) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.2) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.2) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.2) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.2) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.2) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.3) lib/rack/method_override.rb:24:in `call'
+rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.2) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+railties (5.2.2) lib/rails/engine.rb:524:in `call'
+puma (3.11.2) lib/puma/configuration.rb:225:in `call'
+puma (3.11.2) lib/puma/server.rb:624:in `handle_request'
+puma (3.11.2) lib/puma/server.rb:438:in `process_client'
+puma (3.11.2) lib/puma/server.rb:302:in `block in run'
+puma (3.11.2) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+  Rendering home/index.html.erb within layouts/application
+  Rendered users/_login_form.html.erb (1.5ms)
+  Rendered home/index.html.erb within layouts/application (26.9ms)
+  Rendered application/_header.html.erb (1.1ms)
+Completed 200 OK in 433ms (Views: 386.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/app/assets/images/IMG_0038.JPG" for 172.23.0.1 at 2021-10-03 05:08:39 +0000
+  
+ActionController::RoutingError (No route matches [GET] "/app/assets/images/IMG_0038.JPG"):
+  
+actionpack (5.2.2) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.2) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.2) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.2) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.2) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.2) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.2) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.2) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.3) lib/rack/method_override.rb:24:in `call'
+rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.2) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+railties (5.2.2) lib/rails/engine.rb:524:in `call'
+puma (3.11.2) lib/puma/configuration.rb:225:in `call'
+puma (3.11.2) lib/puma/server.rb:624:in `handle_request'
+puma (3.11.2) lib/puma/server.rb:438:in `process_client'
+puma (3.11.2) lib/puma/server.rb:302:in `block in run'
+puma (3.11.2) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started GET "/" for 172.23.0.1 at 2021-10-03 05:08:41 +0000
+Processing by HomeController#index as HTML
+Started GET "/app/assets/images/IMG_0038.JPG" for 172.23.0.1 at 2021-10-03 05:08:41 +0000
+  
+ActionController::RoutingError (No route matches [GET] "/app/assets/images/IMG_0038.JPG"):
+  
+  Rendering home/index.html.erb within layouts/application
+actionpack (5.2.2) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.2) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.2) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.2) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.2) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.2) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.2) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.2) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.3) lib/rack/method_override.rb:24:in `call'
+rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.2) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+railties (5.2.2) lib/rails/engine.rb:524:in `call'
+puma (3.11.2) lib/puma/configuration.rb:225:in `call'
+puma (3.11.2) lib/puma/server.rb:624:in `handle_request'
+puma (3.11.2) lib/puma/server.rb:438:in `process_client'
+puma (3.11.2) lib/puma/server.rb:302:in `block in run'
+puma (3.11.2) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+  Rendered users/_login_form.html.erb (1.1ms)
+  Rendered home/index.html.erb within layouts/application (26.2ms)
+  Rendered application/_header.html.erb (1.1ms)
+Completed 200 OK in 454ms (Views: 413.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/app/assets/images/IMG_0038.JPG" for 172.23.0.1 at 2021-10-03 05:08:41 +0000
+  
+ActionController::RoutingError (No route matches [GET] "/app/assets/images/IMG_0038.JPG"):
+  
+actionpack (5.2.2) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.2) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.2) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.2) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.2) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.2) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.2) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.2) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.3) lib/rack/method_override.rb:24:in `call'
+rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.2) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+railties (5.2.2) lib/rails/engine.rb:524:in `call'
+puma (3.11.2) lib/puma/configuration.rb:225:in `call'
+puma (3.11.2) lib/puma/server.rb:624:in `handle_request'
+puma (3.11.2) lib/puma/server.rb:438:in `process_client'
+puma (3.11.2) lib/puma/server.rb:302:in `block in run'
+puma (3.11.2) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started GET "/" for 172.23.0.1 at 2021-10-03 05:08:42 +0000
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered users/_login_form.html.erb (1.3ms)
+  Rendered home/index.html.erb within layouts/application (20.8ms)
+  Rendered application/_header.html.erb (1.3ms)
+Completed 200 OK in 363ms (Views: 323.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/app/assets/images/IMG_0038.JPG" for 172.23.0.1 at 2021-10-03 05:08:42 +0000
+  
+ActionController::RoutingError (No route matches [GET] "/app/assets/images/IMG_0038.JPG"):
+  
+actionpack (5.2.2) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.2) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.2) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.2) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.2) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.2) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.2) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.2) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.3) lib/rack/method_override.rb:24:in `call'
+rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.2) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+railties (5.2.2) lib/rails/engine.rb:524:in `call'
+puma (3.11.2) lib/puma/configuration.rb:225:in `call'
+puma (3.11.2) lib/puma/server.rb:624:in `handle_request'
+puma (3.11.2) lib/puma/server.rb:438:in `process_client'
+puma (3.11.2) lib/puma/server.rb:302:in `block in run'
+puma (3.11.2) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started GET "/" for 172.23.0.1 at 2021-10-03 05:08:45 +0000
+Processing by HomeController#index as HTML
+Started GET "/app/assets/images/IMG_0038.JPG" for 172.23.0.1 at 2021-10-03 05:08:45 +0000
+  
+ActionController::RoutingError (No route matches [GET] "/app/assets/images/IMG_0038.JPG"):
+  Rendering home/index.html.erb within layouts/application
+  
+  Rendered users/_login_form.html.erb (1.1ms)
+actionpack (5.2.2) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.2) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.2) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.2) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.2) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.2) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.2) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.2) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.3) lib/rack/method_override.rb:24:in `call'
+rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.2) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+railties (5.2.2) lib/rails/engine.rb:524:in `call'
+puma (3.11.2) lib/puma/configuration.rb:225:in `call'
+puma (3.11.2) lib/puma/server.rb:624:in `handle_request'
+puma (3.11.2) lib/puma/server.rb:438:in `process_client'
+puma (3.11.2) lib/puma/server.rb:302:in `block in run'
+puma (3.11.2) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+  Rendered home/index.html.erb within layouts/application (22.1ms)
+  Rendered application/_header.html.erb (1.0ms)
+Completed 200 OK in 455ms (Views: 407.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/app/assets/images/IMG_0038.JPG" for 172.23.0.1 at 2021-10-03 05:08:45 +0000
+  
+ActionController::RoutingError (No route matches [GET] "/app/assets/images/IMG_0038.JPG"):
+  
+actionpack (5.2.2) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.2) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.2) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.2) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.2) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.2) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.2) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.2) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.3) lib/rack/method_override.rb:24:in `call'
+rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.2) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+railties (5.2.2) lib/rails/engine.rb:524:in `call'
+puma (3.11.2) lib/puma/configuration.rb:225:in `call'
+puma (3.11.2) lib/puma/server.rb:624:in `handle_request'
+puma (3.11.2) lib/puma/server.rb:438:in `process_client'
+puma (3.11.2) lib/puma/server.rb:302:in `block in run'
+puma (3.11.2) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
